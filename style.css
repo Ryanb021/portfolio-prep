@@ -81,7 +81,7 @@ h2 {
   align-items: center;
   text-align: center;
   margin: 4rem auto;
-  width: 95%;
+  width: 80%;
 }
 
 h4 {
@@ -115,25 +115,28 @@ h4 {
   justify-content: flex-start;
   align-items: center;
   flex-wrap: wrap;
-
 }
 
-.store-items {
+.store-item {
   width: 300px;
   padding: 1rem;
+  margin: 0px 10px 30px 70px;
 }
 
-.store-items img {
-  width: 250px;
-  height: 200px;
+.store-item img {
+  width: 300px;
+  height: 250px;
   display: block;
   border-radius: 15px;
   opacity: .5;
   filter:alpha(opacity=50);
+  display: flex;
+  justify-content: center;
+
 
 }
 
-.store-items img:hover {
+.store-item img:hover {
   opacity: 1.0;
   filter:alpha(opacity=100);
   box-shadow: 0 0 7px #fff,
