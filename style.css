@@ -199,7 +199,7 @@ footer {
   padding: 5em;
   transition: transform 3s;
   transform-style: preserve-3d;
-  width: 500px;
+  width: 600px;
   height: 600px;
   margin-left: 400px;
 }
@@ -255,7 +255,7 @@ footer {
   font-size: 1.3rem;
   transform: translateZ(5rem);
   word-spacing: 8px;
-  line-height: 20px;
+  line-height: 25px;
 }
 
 .cardback {
