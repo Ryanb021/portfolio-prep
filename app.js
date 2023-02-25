@@ -5,7 +5,7 @@
 
   buttons.forEach((button) => {
     button.addEventListener('click', (e) => {
-      e.preventDefault()
+      e.preventDefault();
       const filter = e.target.dataset.filter;
 
       storeImages.forEach((item) => {
