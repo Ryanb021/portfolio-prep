@@ -18,7 +18,7 @@
 }
 
 body {
-  width: 100%;
+  width: auto;
   height: 100vh;
   font-size: 18px;
   font-family: "Permanent Marker", sans-serif;
