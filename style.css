@@ -116,7 +116,7 @@ h5 a {
 }
 
 .menu a {
-  font-size: 1.1rem;
+  font-size: 1.5rem;
   text-decoration: none;
   margin: 0 1.5rem;
   padding: 8px 22px;
@@ -229,18 +229,31 @@ footer {
 }
 
 .cardtitle {
-  font-size: 1.5rem;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 2.5rem;
   transform: translateZ(6rem);
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
 
 }
 
 .cardsubtitle {
-  font-size: 1rem;
-  transform: translateZ(4rem);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.5rem;
+  transform: translateZ(5rem);
 }
 
 .cardbody {
-  transform: translateZ(3rem);
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.3rem;
+  transform: translateZ(5rem);
   word-spacing: 8px;
   line-height: 20px;
 }
@@ -271,6 +284,39 @@ p {
 
 .description:hover {
   opacity: 1;
+  box-shadow: 0 0 7px #fff,
+  0 0 10px #fff,
+  0 0 21px #fff,
+  0 0 42px #5271ff,
+  0 0 82px #5271ff,
+  0 0 92px #5271ff,
+  0 0 102px #5271ff,
+  0 0 151px #5271ff;
+}
+
+.skillset{
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.skills {
+  flex-direction: row;
+ text-align: center;
+ margin-top: 50px;
+ margin-bottom: 50px;
+}
+
+.skills img{
+  height: 60px;
+  width: 60px;
+  opacity: .5;
+  filter:alpha(opacity=50);
+}
+
+.skills img:hover{
+  opacity: 1.0;
+  filter:alpha(opacity=100);
   box-shadow: 0 0 7px #fff,
   0 0 10px #fff,
   0 0 21px #fff,
